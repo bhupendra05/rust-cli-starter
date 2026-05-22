@@ -1,0 +1,10 @@
+# mycli configuration file
+# Copy to ~/.config/mycli/config.toml
+
+[app]
+name = "mycli"
+log_level = "info"   # error | warn | info | debug | trace
+
+[http]
+timeout_seconds = 30
+user_agent = "mycli/0.1.0"
